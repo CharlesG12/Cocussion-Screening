@@ -6,14 +6,14 @@ public class spawner : MonoBehaviour {
     public Transform spawnPos;
     public GameObject spawnee;
 
-    private float height = 10;
-    private float width = 30;
+    private float height = 60;
+    private float width = 60;
 
     // positions for the number
-    private double[,] pos = new double[,] {{0, 0.3, 0.6, 0.8, 1 },
-                                           {0, 0.1, 0.4, 0.76, 1},
-                                           {0, 0.15, 0.6, 0.84, 1 },
-                                           {0, 0.3, 0.5, 0.6, 1 } };
+    private double[,] pos = new double[,] {{0, 0.6, 1.2, 1.6, 2 },
+                                           {0, 0.2, 0.8, 1.52, 2},
+                                           {0, 0.3, 1.2, 1.68, 2 },
+                                           {0, 0.6, 0.1, 1.2, 2 } };
 
     // offset location from the eye position
     private Vector3 offset = new Vector3(-15.0f, -5.0f, 20.0f);
