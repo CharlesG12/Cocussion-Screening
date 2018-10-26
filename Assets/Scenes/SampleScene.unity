@@ -211,11 +211,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 282840810}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c77b5f896f115134db55aeacae7a3718, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f173a380ad6f8e479ab9d7c13e4aa4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPos: {fileID: 282840814}
+  eyePosition: {fileID: 282840814}
   spawnee: {fileID: 1096861159685130, guid: 27f517c743166b644a9274eccd959944, type: 2}
+  lineGerneratorPrefab: {fileID: 1838485317638802, guid: 79eb3f4c2f4ccfc49b219afd20d1dc56,
+    type: 2}
 --- !u!20 &282840813
 Camera:
   m_ObjectHideFlags: 0

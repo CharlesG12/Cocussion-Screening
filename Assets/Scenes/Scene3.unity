@@ -206,8 +206,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86c2af240a3a4214ca9fd9011d6c0376, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eyePosition: {fileID: 0}
-  spawnee: {fileID: 0}
+  eyePosition: {fileID: 471374005}
+  spawnee: {fileID: 1096861159685130, guid: 27f517c743166b644a9274eccd959944, type: 2}
 --- !u!1 &1171611234
 GameObject:
   m_ObjectHideFlags: 0
