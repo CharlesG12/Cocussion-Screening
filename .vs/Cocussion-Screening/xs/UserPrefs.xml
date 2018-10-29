@@ -1,9 +1,8 @@
 ﻿<Properties StartupConfiguration="{0A5214B7-65CA-5504-4698-7CEA7005D838}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/spawner.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/destroyer.cs">
     <Files>
       <File FileName="Assets/Script/destroyer.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/spawner.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
