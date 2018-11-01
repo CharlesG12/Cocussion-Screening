@@ -6,7 +6,10 @@ public class spawner_scene1 : MonoBehaviour
 {
     public Transform eyePosition;
     public GameObject spawnee;
+<<<<<<< HEAD
     public GameObject Canvas;
+=======
+>>>>>>> ff77a0bf493e82339a46d87031b1eb353626d43f
 
     public GameObject lineGerneratorPrefab;
 
@@ -49,7 +52,11 @@ public class spawner_scene1 : MonoBehaviour
 
                 GameObject projectile = Instantiate(spawnee, newPos, eyePosition.rotation);
                 projectile.transform.rotation = Quaternion.Euler(0, 0, 180);
+<<<<<<< HEAD
                 projectile.transform.parent = Canvas.transform;
+=======
+
+>>>>>>> ff77a0bf493e82339a46d87031b1eb353626d43f
 
                 lRend.SetPosition(index, newPos);
                 index++;
