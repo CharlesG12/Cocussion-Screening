@@ -7,9 +7,9 @@ public class spawner_scene1 : MonoBehaviour
     public Transform eyePosition;
     public GameObject spawnee;
     public GameObject canvas;
+    public Texture[] textures;
 
     public GameObject lineGerneratorPrefab;
-
     private static float height = 30.0f;
     private static float width = 70.0f;
     private static float distanceFromEye = 20.0f;
@@ -51,6 +51,10 @@ public class spawner_scene1 : MonoBehaviour
 
                 projectile.name = index.ToString();
                 projectile.transform.parent = canvas.transform;
+
+                // randomly select texture
+                int currentTexture_index = Random.Range(0, 10);
+                projectile.GetComponent<Renderer>().material.mainTexture = textures[currentTexture_index];
 
                 lRend.SetPosition(index, newPos);
                 index++;

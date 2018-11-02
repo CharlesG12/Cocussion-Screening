@@ -6,6 +6,7 @@ public class spawner_scene2 : MonoBehaviour {
     public Transform eyePosition;
     public GameObject spawnee;
     public GameObject canvas;
+    public Texture[] textures;
 
     public GameObject lineGerneratorPrefab;
 
@@ -28,11 +29,6 @@ public class spawner_scene2 : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
-        
-
-        
-
         for ( int i = 0; i < pos.GetLength(0); i++ )
         {
             GameObject newLineGen = Instantiate(lineGerneratorPrefab);
@@ -52,6 +48,10 @@ public class spawner_scene2 : MonoBehaviour {
 
                 projectile.name = index.ToString();
                 projectile.transform.parent = canvas.transform;
+
+                // randomly select texture
+                int currentTexture_index = Random.Range(0, 10);
+                projectile.GetComponent<Renderer>().material.mainTexture = textures[currentTexture_index];
 
                 lRend.SetPosition(index, newPos);
                 index++;

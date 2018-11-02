@@ -45,6 +45,11 @@ public class spawner_scene3 : MonoBehaviour
 
                 projectile.name = index.ToString();
                 projectile.transform.parent = canvas.transform;
+
+                // randomly select texture
+                int currentTexture_index = Random.Range(0, 10);
+                projectile.GetComponent<Renderer>().material.mainTexture = textures[currentTexture_index];
+
                 index++;
             }
         }
