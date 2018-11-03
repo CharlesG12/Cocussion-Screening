@@ -15,14 +15,11 @@ public class spawner_scene1 : MonoBehaviour
     private static float distanceFromEye = 20.0f;
 
     // positions for the number
-    private double[,] pos = new double[,] {{0, 0.3,  0.6, 0.8,  1 },
-                                           {0, 0.1,  0.4, 0.76, 1},
-                                           {0, 0.15, 0.6, 0.84, 1},
-                                           {0, 0.3,  0.5, 0.6,  1 },
-                                           {0, 0.15, 0.6, 0.84, 1 },
-                                           {0, 0.15, 0.6, 0.84, 1 },
-                                           {0, 0.15, 0.6, 0.84, 1 },
-                                           {0, 0.15, 0.6, 0.84, 1 },};
+    private double[,] pos = new double[,] {{0, 0.2,  0.5, 0.67,  1 },
+                                           {0, 0.26,  0.45, 0.73, 1},
+                                           {0, 0.175, 0.45, 0.7, 1},
+                                           {0, 0.2,  0.5, 0.76,  1 },
+                                           {0, 0.3, 0.72, 0.8, 1 }};
 
     // offset location from the eye position
     private Vector3 offset = new Vector3(width / 2.0f, -height / 2.0f, distanceFromEye);

@@ -7,20 +7,21 @@ public class spawner_scene4 : MonoBehaviour
     public Transform eyePosition;
     public GameObject spawnee;
     public GameObject canvas;
+    public Texture[] textures;
 
     private static float height = 30.0f;
     private static float width = 70.0f;
     private static float distanceFromEye = 20.0f;
 
     // positions for the number
-    private double[,] pos = new double[,] {{0, 0.3,  0.6, 0.8,  1 },
-                                           {0, 0.1,  0.4, 0.76, 1},
-                                           {0, 0.15, 0.6, 0.84, 1},
-                                           {0, 0.3,  0.5, 0.6,  1 },
-                                           {0, 0.15, 0.6, 0.84, 1 },
-                                           {0, 0.15, 0.6, 0.84, 1 },
-                                           {0, 0.15, 0.6, 0.84, 1 },
-                                           {0, 0.15, 0.6, 0.84, 1 },};
+    private double[,] pos = new double[,] {{0, 0.26,  0.43, 0.69,  1 },
+                                           {0, 0.18,  0.53, 0.75, 1},
+                                           {0, 0.27, 0.63, 0.72, 1},
+                                           {0, 0.19,  0.45, 0.75,  1 },
+                                           {0, 0.25, 0.53, 0.7, 1 },
+                                           {0, 0.32, 0.45, 0.73, 1 },
+                                           {0, 0.13, 0.52, 0.78, 1 },
+                                           {0, 0.3, 0.53, 0.69, 1 },};
 
     // offset location from the eye position
     private Vector3 offset = new Vector3(width / 2.0f, -height / 2.0f, distanceFromEye);
