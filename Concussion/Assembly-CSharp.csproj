@@ -89,11 +89,11 @@
     <None Include="Assets\Shaders\PriorityParticleAlpha.shader" />
     <None Include="Assets\Shaders\SlidingUV.shader" />
     <None Include="Assets\Shaders\SeparableAlpha.shader" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Classes/VR/Project/Mine/Concussion/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/Classes/VR/Project/Mine/Concussion/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>D:/Classes/VR/Project/Mine/Concussion/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
